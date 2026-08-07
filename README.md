@@ -1,4 +1,5 @@
 #BlueLab
+
 This is a Home lab project to practice and prove to my self I can build the skills to be a SOC Analyst: I will be attacking my own system, investigating what happened in log files Using Splunk and explaining it clearly to for myself and for someone who is non-technical. 
 
 Why this project exists
