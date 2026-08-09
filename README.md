@@ -19,3 +19,8 @@ The Plan:
 Hopeful End Result
 
 A working lab plus a folder of documented "Incidents". Each one showing an attack technique, the raw evidence in Splunk, and a clear write up explaining it. Showing a portfolio that i can actually do the technical work and communicate it. 
+
+
+What I have Learned:
+
+- Learned that Virtual Box VM default to NAT networking, this isolates them from the reset of the home network. I had to switch to Bridged Adapter mode so the VM could reach Splunk on the host and would later be reachable by Kali(my Attack Box) too. 
