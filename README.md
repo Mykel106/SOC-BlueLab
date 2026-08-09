@@ -27,7 +27,7 @@ A working lab plus a folder of documented "Incidents". Each one showing an attac
 
 - Ping is not reliable connectivity test sometimes. I did not know that Windows will also automatically block IMCP(ping) be default even on working connections. I used Test-NetConnection -Port 9997 instead, this tests the actual port that i setup with Splunk from what I read it is a bit more accurate.  
 
--Windows Firewall automatically block unsolicited Inbound connections by default. I had to manually create an Inbound rule (first time ever) to open TCP port 9997 before the desktop would accept forwarded data from the VM. 
+- Windows Firewall automatically block unsolicited Inbound connections by default. I had to manually create an Inbound rule (first time ever) to open TCP port 9997 before the desktop would accept forwarded data from the VM. 
 
 - Splunk does not create a inputs.conf file automatically. I had to create this by hand with using there help function and research and A LOT of reddit. Also did not know that Window will automatically make files .txt not Conf unless you switch "Save as type" to All Files.  
 
